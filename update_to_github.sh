@@ -6,7 +6,7 @@ git add .   # add all files in the current directory and its subdirectories
 echo ----------commit-------------
 git commit -m "$1" # use the first argument as the commit message
 echo ----------push---------------
-git push -f  origin master #the push-operation need to config remote address.
+git push -u  origin master #the push-operation need to config remote address.
 # i didn`t check it for you in the script
 echo ----------status-------------
 git status
