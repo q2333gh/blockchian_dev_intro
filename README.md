@@ -63,6 +63,10 @@ By default backend use Mokoto.
 How to use rust (with webMVC) ?  
 Or even Java , Python?  
 todo  
+Some IC-rust maybe:
+https://github.com/usergeek/canistergeek_ic_rust  
+IC-app-flutter:
+https://github.com/AstroxNetwork/agent_dart  
 
 ## Deploy dapp on IC-chain(on the Internet)
 
