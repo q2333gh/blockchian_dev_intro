@@ -128,7 +128,7 @@ c++/rust 高级语言代码 -> .wat 汇编文件 -> wasm 二进制文件
 对比理解:
 ![Alt text](image-6.png)  
 
-# IC-SDK-APIs
+# IC-SDK-APIs of Rust
 
 ## queries:
 
@@ -153,3 +153,10 @@ query 查询的是 IC 特别命名的 stable memory,这里的 memory 不是指�
 #### 一些最大存储限制
 
 如单词网络发送容量,链上存储容量,RPC 交互节点量,wasm 最大文件大小等:https://internetcomputer.org/docs/current/developer-docs/backend/resource-limits  
+
+## IC-SDK-Rust
+
+ref: https://github.com/dfinity/cdk-rs  
+
+intro:
+A canister is a WebAssembly (wasm) module that can run on the Internet Computer.  
