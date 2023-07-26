@@ -71,3 +71,7 @@ https://github.com/AstroxNetwork/agent_dart
 ## Deploy dapp on IC-chain(on the Internet)
 
 todo  
+
+## IC compile all codes into WASM
+
+### wasm intro:
