@@ -6,7 +6,7 @@ dfx: developer experience, the IC-SDK 的 CLI
 Candid: 多个不同语言写的 canister 之间的 RPC 通信语言;an interface description language (IDL),a tool developed by DFINITY that allows different programs to communicate with each other on the Internet Computer.(Candid” does not appear to be an acronym or abbreviation, hah)  
 CDK:Canister Development Kit ,主要是各个语言提供的操作 canister 的库,可以包含在 IC-SDK 里面,如 rust-CDK,python-CDK,typescript-CDK  
 
-#### some interesting fact:
+#### some interesting fact:😊
 
 HCI: human–computer interaction  
 GUI: colorful ,with buttons and images,  
@@ -61,17 +61,19 @@ dfx stop
 ```
 
 replica 原意副本,在这里 dfx 里面特指 Internet Computer local network binary  
-这是啥? 本地链? 还是一个 http 服务器?  
+这是啥? 本地链? 还是一个 http 服务器?功能类似 tomcat?nginx?  
 
-## How to use other backend language ?
+### How to use other backend language ?
 
 By default backend use Mokoto.  
 How to use rust (with webMVC) ?  
 Or even Java , Python?  
+目前 2023-7 对 Python 的 IC-SDK 支持不完善,说的没有稳定的中型项目用 python 部署在 IC 链上  
+Java 直接没提到可能没有 IC-SDK-java  
 todo  
-Some IC-rust maybe:
+Some IC-rust project maybe:
 https://github.com/usergeek/canistergeek_ic_rust  
-IC-app-flutter:
+IC-app-flutter:全栈,并且有用户资产相关,如他们的 ME 那个软件  
 https://github.com/AstroxNetwork/agent_dart  
 
 ## Deploy dapp on IC-chain(on the Internet)
