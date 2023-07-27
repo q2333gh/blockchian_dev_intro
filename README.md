@@ -62,6 +62,7 @@ dfx stop
 
 replica 原意副本,在这里 dfx 里面特指 Internet Computer local network binary  
 这是啥? 本地链? 还是一个 http 服务器?功能类似 tomcat?nginx?  
+本地运行的时候会保存之前的副本，比如你有部署一些程序，不会给你删掉，所以想删之前程序的话加个--clean  
 
 ### How to use other backend language ?
 
