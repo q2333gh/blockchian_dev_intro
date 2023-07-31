@@ -136,3 +136,10 @@ ref: https://github.com/dfinity/cdk-rs
 
 intro:
 A canister is a WebAssembly (wasm) module that can run on the Internet Computer.  
+
+# 整个 dapp 工程需要测试和本地模拟区块链
+
+How?  
+
+如何 debug 一个 dapp??  
+debug 一个 dapp 是在 debug 一个 rust-wasm 程序吗?  
