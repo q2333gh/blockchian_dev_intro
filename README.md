@@ -1,4 +1,4 @@
-### some abbreviations:
+### some abbreviations and 黑话解释:
 
 dapp: decentralized application (can be full-stack)  
 IC: internet computer  
@@ -9,7 +9,8 @@ DAO:decentralized autonomous organization,就开发那个容器的公司名字,�
 DEX:Decentralized exchange , 即转账.  
 DeFi:decentralized finance  
 ECDSA: ECDSA API 是一种用于生成和验证数字签名的接口，它使用 ECDSA（Elliptic Curve Digital Signature Algorithm)  
-LSDfi: Liquid Staking Derivatives Finance 的缩写，它指的是一些基于流动性质押衍生品（LSD）的 DeFi 协议，它们覆盖了 DeFi 生态系统的各个方面
+LSDfi: Liquid Staking Derivatives Finance 的缩写，它指的是一些基于流动性质押衍生品（LSD）的 DeFi 协议，它们覆盖了 DeFi 生态系统的各个方面  
+stake,staking: 质押, 如把 USD 换成 BTC 的行为.把 IC 币换成 neuron 的行为.
 
 #### some interesting fact:😊
 
