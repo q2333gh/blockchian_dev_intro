@@ -8,7 +8,8 @@ CDK:Canister Development Kit ,主要是各个语言提供的操作 canister 的�
 DAO:decentralized autonomous organization,就开发那个容器的公司名字,组织.统一抽象这类组织叫做 DAO.即开发商  
 DEX:Decentralized exchange , 即转账.  
 DeFi:decentralized finance  
-ECDSA: ECDSA API 是一种用于生成和验证数字签名的接口，它使用 ECDSA（Elliptic Curve Digital Signature Algorithm)
+ECDSA: ECDSA API 是一种用于生成和验证数字签名的接口，它使用 ECDSA（Elliptic Curve Digital Signature Algorithm)  
+LSDfi: Liquid Staking Derivatives Finance 的缩写，它指的是一些基于流动性质押衍生品（LSD）的 DeFi 协议，它们覆盖了 DeFi 生态系统的各个方面
 
 #### some interesting fact:😊
 
