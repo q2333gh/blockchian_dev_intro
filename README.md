@@ -16,7 +16,7 @@ SNS: Service Nervous System
 这两个名词没有很准确的表述自己的服务范围: NNS 是整个 IC 的 stake 管理. SNS 是各个 dapp 自己的 stake 管理  
 NNS：控制 Internet Computer 区块链的运行和发展.NNS 是一个去中心化和无需许可的治理系统,它可以通过提案和投票来决定区块链的各种参数,例如节点的奖励,子网的创建,协议的升级等.NNS 还可以通过分发代币（ICP）来激励社区成员参与治理,并通过转换代币（周期）来为智能合约提供计算资源.  
 SNS：控制 Internet Computer 上的 dApp 和服务的运行和发展.SNS 是从 NNS 衍生出来的一种治理系统,它可以让每个 dApp 和服务拥有自己的代币化治理机制,让社区成员可以通过代币来参与决策和管理..SNS 可以通过提案和投票来决定 dApp 和服务的各种功能,例如费用,参数,升级等.SNS 还可以用代币来奖励社区的贡献,或者用代币来购买服务.  
-IC-neuron hotkey : 是一种可以用来做一些非关键的治理操作（例如投票和查询成熟度）的密钥,而不需要使用控制器的密钥.你可以使用 quill 命令行工具来添加,移除或列出 neuron 的 hotkey.quill 是一个用于与 Internet Computer 交互的轻量级客户端 2.你可以使用 quill neuron-manage 命令来管理 neuron 的属性,包括 hotkey3.
+IC-neuron hotkey : 是一种可以用来做一些非关键的治理操作（例如投票和查询成熟度）的密钥,而不需要使用控制器的密钥.
 
 #### some interesting fact:😊
 
