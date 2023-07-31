@@ -10,7 +10,7 @@ DEX:Decentralized exchange , 即转账.
 DeFi:decentralized finance  
 ECDSA: ECDSA API 是一种用于生成和验证数字签名的接口，它使用 ECDSA（Elliptic Curve Digital Signature Algorithm)  
 LSDfi: Liquid Staking Derivatives Finance 的缩写，它指的是一些基于流动性质押衍生品（LSD）的 DeFi 协议，它们覆盖了 DeFi 生态系统的各个方面  
-stake,staking: 质押, 如把 USD 换成 BTC 的行为.把 IC 币换成 neuron 的行为.
+stake,staking: 质押, 如把 USD 换成 BTC 的行为.把 IC 币换成 neuron 的行为.在区块链中可以特指:锁定加密资产：这是一个名词，指的是将加密资产锁定在一个智能合约中，以获得一定的收益，并帮助维护区块链的安全性和稳定性;参与权益证明：这是一个动词，指的是通过锁定加密资产来参与基于权益证明（Proof of Stake）协议的区块链系统，并通过验证交易或创建区块来获得奖励
 
 #### some interesting fact:😊
 
