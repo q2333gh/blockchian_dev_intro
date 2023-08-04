@@ -55,7 +55,9 @@ wget https://github.com/dfinity/sdk/releases/download/0.14.3/dfx-0.14.3-x86_64-l
 ```sh
 dfx new hello # create a example project "hello"
 cd hello
+#start a local IC-chain on the local machine
 dfx start --background
+
 
 # deploy:
 npm install # install all dependencies locally
