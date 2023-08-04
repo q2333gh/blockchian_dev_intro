@@ -3,7 +3,10 @@
 dapp: decentralized application (can be full-stack)  
 IC: internet computer  
 dfx: developer experience, the IC-SDK 的 CLI  
-Candid: 多个不同语言写的 canister 之间的 RPC 通信语言;an interface description language (IDL),a tool developed by DFINITY that allows different programs to communicate with each other on the Internet Computer.(Candid” does not appear to be an acronym or abbreviation, hah)  
+Candid: 多个不同语言写的 canister 之间的 RPC 通信语言;an interface description language (IDL),a tool developed by DFINITY that allows different programs to communicate with each other on the Internet Computer.(Candid” does not appear to be an acronym or abbreviation, hah)    
+ This file contains the interface description of your canister and is needed for inter-canister communication. 
+
+
 CDK:Canister Development Kit ,主要是各个语言提供的操作 canister 的库,可以包含在 IC-SDK 里面,如 rust-CDK,python-CDK,typescript-CDK  
 DAO:decentralized autonomous organization,就开发那个容器的公司名字,组织.统一抽象这类组织叫做 DAO.即那个 dapp 的软件开发组织  
 DEX:Decentralized exchange , 即转账.  
