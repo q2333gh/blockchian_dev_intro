@@ -18,6 +18,9 @@ NNS：控制 Internet Computer 区块链的运行和发展.NNS 是一个去中�
 SNS：控制 Internet Computer 上的 dApp 和服务的运行和发展.SNS 是从 NNS 衍生出来的一种治理系统,它可以让每个 dApp 和服务拥有自己的代币化治理机制,让社区成员可以通过代币来参与决策和管理..SNS 可以通过提案和投票来决定 dApp 和服务的各种功能,例如费用,参数,升级等.SNS 还可以用代币来奖励社区的贡献,或者用代币来购买服务.  
 IC-neuron hotkey : 是一种可以用来做一些非关键的治理操作（例如投票和查询成熟度）的密钥,而不需要使用控制器的密钥.  
 
+replica: 本地搭建一个IC链,模拟互联网上面的IC链
+
+
 #### some interesting fact:😊
 
 HCI: human–computer interaction  
