@@ -64,6 +64,9 @@ cd hello
 #exit terminal won`t cause program stop.
 dfx start --background
 
+#sometime cache problem:
+dfx start --clean
+
 
 # deploy:
 npm install # install all dependencies locally
