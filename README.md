@@ -84,8 +84,13 @@ dfx stop
 ```
 
 replica 原意副本,在这里 dfx 里面特指 Internet Computer local network binary  
-这是啥? 本地链? 还是一个 http 服务器?功能类似 tomcat?nginx?  
+这就是一个本地的IC链
 本地运行的时候会保存之前的副本,比如你有部署一些程序,不会给你删掉,所以想删之前程序的话加个--clean  
+
+# 部署到互联网上面的IC主链上:
+![image](https://github.com/q2333gh/IC_apps_intro/assets/32679742/9018f77e-7b18-491d-b349-010f00e2f0b4)
+
+
 
 ### How to use other backend language ?
 
