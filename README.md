@@ -56,6 +56,8 @@ wget https://github.com/dfinity/sdk/releases/download/0.14.3/dfx-0.14.3-x86_64-l
 dfx new hello # create a example project "hello"
 cd hello
 #start a local IC-chain on the local machine
+#background sematics like java -jar nohup , running the program as a background task(service) .
+#exit terminal won`t cause program stop.
 dfx start --background
 
 
