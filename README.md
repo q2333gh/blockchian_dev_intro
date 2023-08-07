@@ -1,3 +1,4 @@
+
 # dfx intro
 
 ## install dfx
@@ -18,7 +19,14 @@ wget https://github.com/dfinity/sdk/releases/download/0.14.3/dfx-0.14.3-x86_64-l
 ```sh
 dfx new hello # create a example project "hello"
 cd hello
+#start a local IC-chain on the local machine
+#background sematics like java -jar nohup , running the program as a background task(service) .
+#exit terminal won`t cause program stop.
 dfx start --background
+
+#sometime cache problem:
+dfx start --clean
+
 
 # deploy:
 npm install # install all dependencies locally
@@ -49,7 +57,13 @@ rustup target add wasm32-unknown-unknown
 
 replica 原意副本,在这里 dfx 里面特指 Internet Computer local network binary  
 这是啥? 本地链? 还是一个 http 服务器?功能类似 tomcat?nginx?  
-本地运行的时候会保存之前的副本,比如你有部署一些程序,不会给你删掉,所以想删之前程序的话加个--clean
+本地运行的时候会保存之前的副本,比如你有部署一些程序,不会给你删掉,所以想删之前程序的话加个--clean  
+这就是一个本地的 IC 链  
+本地运行的时候会保存之前的副本,比如你有部署一些程序,不会给你删掉,所以想删之前程序的话加个--clean  
+
+# 部署到互联网上面的 IC 主链上:
+
+![image](https://github.com/q2333gh/IC_apps_intro/assets/32679742/9018f77e-7b18-491d-b349-010f00e2f0b4)  
 
 ### How to use other backend language ?
 
@@ -58,16 +72,16 @@ How to use rust (with webMVC) ?
 Or even Java , Python?  
 目前 2023-7 对 Python 的 IC-SDK 支持不完善,说的没有稳定的中型项目用 python 部署在 IC 链上  
 IC-SDK-java:
-现在有一个叫 ic4j 的 ic java agent: https://github.com/ic4j/ic4j-agent
+现在有一个叫 ic4j 的 ic java agent: https://github.com/ic4j/ic4j-agent  
 
 Some IC-rust project maybe:
 https://github.com/usergeek/canistergeek_ic_rust  
 IC-app-flutter:全栈,并且有用户资产相关,如他们的 ME 那个软件  
-https://github.com/AstroxNetwork/agent_dart
+https://github.com/AstroxNetwork/agent_dart  
 
 ## Deploy dapp on IC-chain(on the Internet)
 
-todo
+todo  
 
 ### use IC-chain need resource
 
@@ -75,7 +89,7 @@ todo
 所以需要钱: 用 IC 的 cryptcurrncy 来换取成另一种币:他们称为 Cycle,然后你有一个 Cycle wallet,用来支付运行 canister 的费用  
 USD >> IC-cryptoconcurrency >> cycle >> run canister  
 另外 IC 会免费送点 cycles 第一次使用的时候:
-https://internetcomputer.org/docs/current/developer-docs/setup/cycles/cycles-faucet
+https://internetcomputer.org/docs/current/developer-docs/setup/cycles/cycles-faucet  
 
 ## IC compile all codes into WASM
 
@@ -86,12 +100,12 @@ https://internetcomputer.org/docs/current/developer-docs/setup/cycles/cycles-fau
 对于普通信息:如博客,问答,可以在链上传输  
 例子:
 if you are developing a blogging platform, queries that retrieve articles matching a tag probably don’t warrant going through consensus(共识) to ensure that a majority of nodes agree on the results.意思是?可能各个链上数据不是完全同步的?  
-这里的共识关系到 block-chain 的共识算法嘛?还是什么意思?
+这里的共识关系到 block-chain 的共识算法嘛?还是什么意思?  
 
-对于敏感信息,如账单交易,需要做**certified queries**,enable you to receive **authenticated responses**.
+对于敏感信息,如账单交易,需要做**certified queries**,enable you to receive **authenticated responses**.  
 
 基于区块链,所有的 DB 数据都是存在链上的吗?  
-canister 只是在负责做函数计算吗?
+canister 只是在负责做函数计算吗?  
 
 ## queries 的数据来源:Data Storage
 
@@ -99,27 +113,27 @@ query 查询的是 IC 特别命名的 stable memory,这里的 memory 不是指�
 但是反正可以抽象为:
 **一个稳定存储的 byte 数组,任何 canister 都可以来 CRUD**,  
 怎么实现的目前不了解,用就完事儿了.  
-可能是存在链上的.
+可能是存在链上的.  
 
 #### 一些最大存储限制
 
-如单词网络发送容量,链上存储容量,RPC 交互节点量,wasm 最大文件大小等:https://internetcomputer.org/docs/current/developer-docs/backend/resource-limits
+如单词网络发送容量,链上存储容量,RPC 交互节点量,wasm 最大文件大小等:https://internetcomputer.org/docs/current/developer-docs/backend/resource-limits  
 
 ## IC-SDK-Rust
 
-ref: https://github.com/dfinity/cdk-rs
+ref: https://github.com/dfinity/cdk-rs  
 
 intro:
-A canister is a WebAssembly (wasm) module that can run on the Internet Computer.
+A canister is a WebAssembly (wasm) module that can run on the Internet Computer.  
 
 # 整个 dapp 工程需要测试和本地模拟区块链
 
 How?  
 使用本地链上面的 IC 的货币,neuron,hotkey,等  
-做 不同账户不同容器间的 CRUD.
+做 不同账户不同容器间的 CRUD.  
 
 如何 debug 一个 dapp??  
-debug 一个 dapp 是在 debug 一个 rust-wasm 程序吗?
+debug 一个 dapp 是在 debug 一个 rust-wasm 程序吗?  
 
 ```
 
