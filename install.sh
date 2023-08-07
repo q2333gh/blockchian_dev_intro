@@ -9,5 +9,5 @@ source ~/.bashrc
 
 which dfx
 dfx --version
-
+echo 'this PATH only works for bash'
 echo 'exit the terminal and relogin to apply changes'
