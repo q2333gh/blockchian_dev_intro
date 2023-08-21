@@ -1,4 +1,5 @@
 content ref: https://www.udemy.com/course/the-complete-web-development-bootcamp/
+https://www.youtube.com/playlist?list=PLSzsOkUDsvdubXF5XGGPffyQJ5CVU_9_c
 ### names:  
 ledger: 账本  
 cipher: 加密过后的密文 decipher:解密  
@@ -64,3 +65,19 @@ benefit of fully decentralized:
 
 why not fully decentralized yet:
 1. CRUD speed. performance. efficiency
+enormous data produce every seconds now .
+![Alt text](image-21.png)
+
+![Alt text](image-22.png)
+Eth community is the biggest .
+but not fully decentralized.
+it goes its tradeoff.
+
+such as on-chain computation is still slow in IC.
+on-chain CRUD is slow than centralized data center.
+
+TPS: how many computation can do at amount of time .
+![Alt text](image-23.png)
+目前就用户体感来说,速度是远不如twitter ,facebook的.
+且时延可能也还达不到中心化的如游戏的需要.
+这里IC这个链说自己是无限的TPS,有点吹牛,twitter都还没做到.
