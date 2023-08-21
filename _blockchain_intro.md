@@ -1,4 +1,4 @@
-content ref: https://www.udemy.com/course/the-complete-web-development-bootcamp/
+content ref: https://www.udemy.com/course/the-complete-web-development-bootcamp/  
 https://www.youtube.com/playlist?list=PLSzsOkUDsvdubXF5XGGPffyQJ5CVU_9_c
 ### names:  
 ledger: 账本  
@@ -16,7 +16,7 @@ private key for **deencrytion** data.
 Hash:  SHA-256 Cryptographic Hash Algorithm  
 This method is like:  
 encrypt **forward**: 将1024个01比特,把每个8bit识别为一个数字,然后将他们每个数字相乘,得到那个hash值.   
-如  35*21*75*49=2701125  
+如  35\*21\*75\*49=2701125  
 deencrypt **backward**: 求解256位数的公因子   
 find 2 factor number of 40 digits  take 900 years of computer computation.      
 几乎不可能从2701125得到这四个factor: 35*21*75*49  
