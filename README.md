@@ -1,3 +1,17 @@
+Blockchain impl many instences.  
+but core idea is similar.  
+by learning the abstraction from these.  
+learn abstraction , ez to impl different blockchain instance.  
+Just like master FCG4 and easily use directX and openGL api.  
+
+before learn blockchain.due to its anoymous attribute.cause benefit and bad things.   
+and many crazy things happened in blockchian apps.  
+so we need a process of  祛魅.  
+not over determinied believe it.   
+also not fully reject every aspect of it .  
+need an abilty to recognize spam and scam.  
+and never gambling with coins and use it todo highly dangerous thing.  
+
 
 # dfx intro
 
