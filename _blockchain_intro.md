@@ -28,7 +28,7 @@ example:
 mine:
 ![Alt text](image-14.png)
 
-Q: why need nonce?? 
+Q: why need nonce??   
 A: maybe for increase difficuty?
 
 
@@ -36,23 +36,27 @@ A: maybe for increase difficuty?
 
 ![Alt text](image-16.png)
 ![Alt text](image-15.png)
-calcute with nonce and data and prev to get **hash**
+calculate with 3 factor:  nonce , data ,and prev-hash to get **hash**
 
 # distributed blockchain:
 ![Alt text](image-17.png)
+basic approach:
 simply just copy-paste each chain.  
 they are exactly the same .  
 if someone change data on onchain and remining it . others will find the hash is diff, so that chain is cheat.  
 ![Alt text](image-18.png)
 
 
-# breckthrough: store code in the block: Ethereum
+# breckthrough: store code in the block!: Ethereum
 they find that we can **store code in the block**.
 so code is immutable.
 
 a code snippet colecect money ,and auto distribute money to xxx when goal is get.
 
 ![Alt text](image-19.png)
+
+Q: the  stored data  is immutable.but what about the exec env ? can hacker change the exec env ? 
+how to make exec env unbreakeable ?
 
 
 # web3 history:
@@ -63,8 +67,8 @@ benefit of fully decentralized:
 
 ![Alt text](image-20.png)
 
-why not fully decentralized yet:
-1. CRUD speed. performance. efficiency
+why not fully decentralized yet:  
+1. CRUD speed. performance. efficiency.  
 enormous data produce every seconds now .
 ![Alt text](image-21.png)
 
@@ -81,3 +85,8 @@ TPS: how many computation can do at amount of time .
 目前就用户体感来说,速度是远不如twitter ,facebook的.
 且时延可能也还达不到中心化的如游戏的需要.
 这里IC这个链说自己是无限的TPS,有点吹牛,twitter都还没做到.
+IC invent a algorithm call Threshold Relay and Network Scalablity . this algorithm is aim to high performance and delay time on-chain computation.
+
+
+diff of coin and token
+![Alt text](image-24.png)
